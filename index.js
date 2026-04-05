@@ -18,7 +18,7 @@ app.use(
 
 const MONGODB_URI =
   process.env.MONGODB_URI ||
-  "mongodb+srv://Mohamed:YOUR_ACTUAL_PASSWORD@cluster0.bagboyl.mongodb.net/phonebook?retryWrites=true&w=majority";
+  "mongodb+srv://Mohamed:Mohamed@cluster0.bagboyl.mongodb.net/phonebook?retryWrites=true&w=majority";
 
 mongoose.set("strictQuery", false);
 mongoose
